@@ -1,0 +1,31 @@
+{
+  "name": "my-gallery",
+  "version": "1.0.0",
+  "description": "A gallery page",
+  "main": "index.js",
+  "scripts": {
+    "tail": "tailwindcss -i ./assets/style/input.css -o ./assets/style/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerebel/my-gallery.git"
+  },
+  "keywords": [
+    "gallery",
+    "devchallenge",
+    "css",
+    "tailwindcss",
+    "frontend",
+    "dev",
+    "zerebel"
+  ],
+  "author": "Zerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zerebel/my-gallery/issues"
+  },
+  "homepage": "https://github.com/Zerebel/my-gallery#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
