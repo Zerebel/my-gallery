@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Gallery</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="assets/style/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-montserrat">
+    <header class="flex flex-col justify-center items-center mt-4 md:mt-8">
+      <div class="flex flex-col items-center justify-center gap-1 md:gap-2">
+        <img
+          src="assets/img/profilePhoto.png"
+          alt="profilePhoto"
+          class="md:w-32 md:h-32 w-28 h-28 rounded-2xl"
+        />
+        <p
+          class="font-semibold text-sm leading-4 md:text-2xl md:leading-7 text-[#4E5150]"
+        >
+          Rodney Cotton
+        </p>
+        <span
+          class="font-semibold text-xxs leading-3 md:text-sm md:leading-4 text-[#A9A9A9]"
+          >Helsinki, Finland</span
+        >
+      </div>
+      <div class="flex gap-3 md:gap-6 mt-3 md:mt-6">
+        <div
+          class="w-20 h-14 bg-[#E5E5E5] rounded-xl md:w-24 md:h-16 flex flex-col items-center justify-center gap-1"
+        >
+          <p
+            class="font-semibold text-xs leading-3 text-[#4E5150] md:text-lg md:leading-5"
+          >
+            100
+          </p>
+          <span
+            class="font-semibold text-xs leading-3 md:text-sm md:leading-4 text-[#BDBDBD]"
+          >
+            Posts
+          </span>
+        </div>
+        <div
+          class="w-20 h-14 bg-[#E5E5E5] rounded-xl md:w-24 md:h-16 flex flex-col items-center justify-center gap-1"
+        >
+          <p
+            class="font-semibold text-xs leading-3 text-[#4E5150] md:text-lg md:leading-5"
+          >
+            2,242
+          </p>
+          <span
+            class="font-semibold text-xs leading-3 md:text-sm md:leading-4 text-[#BDBDBD]"
+          >
+            Follower
+          </span>
+        </div>
+        <div
+          class="w-20 h-14 bg-[#E5E5E5] rounded-xl md:w-24 md:h-16 flex flex-col items-center justify-center gap-1"
+        >
+          <p
+            class="font-semibold text-xs leading-3 text-[#4E5150] md:text-lg md:leading-5"
+          >
+            1,432
+          </p>
+          <span
+            class="font-semibold text-xs leading-3 md:text-sm md:leading-4 text-[#BDBDBD]"
+          >
+            Following
+          </span>
+        </div>
+      </div>
+    </header>
+    <main class="flex flex-col justify-center items-center mt-8 md:mt-16">
+      <div class="flex gap-3 md:gap-8">
+        <img
+          src="assets/img/photo1.png"
+          alt="photo1"
+          class="w-24 h-24 rounded-xl md:w-64 md:h-64 lg:w-72 lg:h-72"
+        />
+        <img
+          src="assets/img/photo2.png"
+          alt="photo2"
+          class="w-56 h-24 rounded-xl md:w-[30rem] md:h-64 lg:w-[39rem] lg:h-72"
+        />
+      </div>
+      <div class="flex gap-3 md:gap-6 lg:gap-8 mt-2 md:mt-4 lg:mt-6">
+        <div class="flex flex-col justify-between">
+          <img
+            src="assets/img/photo3.png"
+            alt="photo3"
+            class="w-56 h-24 rounded-xl md:w-[33.3rem] md:h-64 lg:w-[39.1875rem] lg:h-72"
+          />
+          <div
+            class="flex mt-2 md:mt-4 lg:mt-6 gap-3 md:gap-6 lg:gap-8 justify-between"
+          >
+            <img
+              src="assets/img/photo6.png"
+              alt="photo6"
+              class="w-[6.5rem] h-24 rounded-xl md:w-64 md:h-64 lg:w-72 lg:h-72"
+            />
+            <img
+              src="assets/img/photo5.png"
+              alt="photo5"
+              class="w-[6.5rem] h-24 rounded-xl md:w-64 md:h-64 lg:w-72 lg:h-72"
+            />
+          </div>
+        </div>
+        <img
+          src="assets/img/photo_4.png"
+          alt=""
+          class="w-24 h-52 rounded-xl md:w-52 md:h-[33rem] lg:w-72 lg:h-[39.375rem]"
+        />
+      </div>
+    </main>
+    <footer class="flex items-center justify-center mt-4">
+      <p
+        class="font-normal text-sm leading-4 md:font-medium lg:font-bold text-[#B9BDCF]"
+      >
+        created by
+        <a href="https://github.com/Zerebel" class="text-slate-600">Zerebel</a>
+        - devChallenges.io
+      </p>
+    </footer>
+  </body>
 </html>
