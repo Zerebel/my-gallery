@@ -551,6 +551,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -751,6 +755,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:m-6 {
+    margin: 1.5rem;
+  }
+
   .md\:mt-8 {
     margin-top: 2rem;
   }
@@ -924,6 +932,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:m-8 {
+    margin: 2rem;
+  }
+
   .lg\:mt-6 {
     margin-top: 1.5rem;
   }
